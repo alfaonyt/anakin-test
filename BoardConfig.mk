@@ -275,8 +275,5 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
-# VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Inherit the proprietary files
 include vendor/asus/anakin/BoardConfigVendor.mk
