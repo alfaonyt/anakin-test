@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/vendor,$(TARGET_COPY_OUT_VENDOR)/lib/modules) \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/vendor_boot,$(TARGET_COPY_OUT_VENDOR_BOOT)/lib/modules)
 
-BOARD_VENDOR_KERNEL_MODULES_LOAD := \ # TODO: Fix prebuilt kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     tua9001.ko \
     tuner-xc2028.ko \
     xc4000.ko \
@@ -215,7 +215,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \ # TODO: Fix prebuilt kernel modules
     qca_cld3_wlan.ko \
     qca_cld3_qca6750.ko \
     qca_cld3_qca6390.ko \
-    wlan.ko \
+    qca_cld3_wlan.ko \
     qca_cld3_qca6750.ko \
     qca_cld3_qca6390.ko \
     rmnet_core.ko \
@@ -262,7 +262,7 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
-BOOT_KERNEL_MODULES := \ # TODO: Fix modules
+BOOT_KERNEL_MODULES := \
     msm_drm.ko \
     asus_global_var.ko
 
