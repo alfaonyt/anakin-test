@@ -122,106 +122,106 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/vendor_boot,$(TARGET_COPY_OUT_VENDOR_BOOT)/lib/modules)
 
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
-    tua9001.ko \
-    tuner-xc2028.ko \
-    xc4000.ko \
-    swr_ctrl_dlkm.ko \
-    tx_macro_dlkm.ko \
-    focaltech_fts_rog2.ko \
-    platform_dlkm.ko \
-    mt20xx.ko \
-    va_macro_dlkm.ko \
-    msm_drm.ko \
-    wsa883x_dlkm.ko \
-    slimbus.ko \
-    tea5761.ko \
-    tda18250.ko \
-    it913x.ko \
-    tuner-simple.ko \
-    tda18212.ko \
-    snd-soc-es928x.ko \
-    apr_dlkm.ko \
-    fc0012.ko \
-    tea5767.ko \
-    qcom_edac.kov
-    tda18218.ko \
-    wsa_macro_dlkm.ko \
-    btpower.ko \
-    ms51_phone.ko \
-    tuner-types.ko \
-    hid-aksys.ko \
-    slimbus-ngd.ko \
-    fc0011.ko \
-    focaltech_fts_rog.ko \
-    wcd937x_slave_dlkm.ko \
-    qm1d1c0042.ko \
-    rdbg.ko \
-    bt_fm_slim.ko \
-    q6_pdr_dlkm.ko \
-    qt1010.ko \
-    gf_spi.ko \
-    lid_2.ko \
-    mc44s803.ko \
-    mbhc_dlkm.ko \
-    q6_dlkm.ko \
-    mxl301rf.ko \
-    si2157.ko \
-    machine_dlkm.ko \
-    xc5000.ko \
-    snd_event_dlkm.ko \
-    tntfs.ko \
-    fc0013.ko \
-    rx_macro_dlkm.ko \
-    bolero_cdc_dlkm.ko \
-    tda9887.ko \
-    wcd938x_dlkm.ko \
-    wcd_core_dlkm.ko \
-    swr_dlkm.ko \
-    wcd938x_slave_dlkm.ko \
-    radio-i2c-rtc6226-qca.ko \
-    r820t.ko \
-    sx932x_2nd.ko \
-    texfat.ko \
-    stub_dlkm.ko \
-    sx932x.ko \
-    fc2580.ko \
-    mt2063.ko \
-    ms51_backcover.ko \
-    swr_haptics_dlkm.ko \
-    mt2060.ko \
-    wcd9xxx_dlkm.ko \
-    qm1d1b0004.ko \
     adsp_loader_dlkm.ko \
-    pinctrl_wcd_dlkm.ko \
-    llcc_perfmon.ko \
-    wcd937x_dlkm.ko \
-    sla.ko \
+    apr_dlkm.ko \
+    bolero_cdc_dlkm.ko \
+    bt_fm_slim.ko \
+    btpower.ko \
     camera.ko \
+    cs35l45_i2c_dlkm.ko \
+    e4000.ko \
+    fc0011.ko \
+    fc0012.ko \
+    fc0013.ko \
+    fc2580.ko \
+    focaltech_fts_rog.ko \
+    focaltech_fts_rog2.ko \
+    gf_spi.ko \
+    hdmi_dlkm.ko \
+    hid-aksys.ko \
+    it913x.ko \
+    lid_2.ko \
+    lid.ko \
+    llcc_perfmon.ko \
+    m88rs6000t.ko \
+    machine_dlkm.ko \
+    max2165.ko \
+    mbhc_dlkm.ko \
+    mc44s803.ko \
+    ms51_backcover.ko \
+    ms51_phone.ko \
+    msi001.ko \
+    msm_drm.ko \
+    mt2060.ko \
+    mt2063.ko \
+    mt20xx.ko \
+    mt2131.ko \
+    mt2266.ko \
+    mxl301rf.ko \
     mxl5005s.ko \
     mxl5007t.ko \
-    max2165.ko \
-    pinctrl_lpi_dlkm.ko \
-    cs35l45_i2c_dlkm.ko \
-    q6_notifier_dlkm.ko \
-    m88rs6000t.ko \
-    swr_dmic_dlkm.ko \
-    lid.ko \
-    mt2266.ko \
-    mt2131.ko \
-    e4000.ko \
-    msi001.ko \
-    hdmi_dlkm.ko \
     native_dlkm.ko \
-    qca_cld3_wlan.ko \
-    qca_cld3_qca6750.ko \
+    pinctrl_lpi_dlkm.ko \
+    pinctrl_wcd_dlkm.ko \
+    platform_dlkm.ko \
+    q6_dlkm.ko \
+    q6_notifier_dlkm.ko \
+    q6_pdr_dlkm.ko \
     qca_cld3_qca6390.ko \
-    qca_cld3_wlan.ko \
-    qca_cld3_qca6750.ko \
     qca_cld3_qca6390.ko \
+    qca_cld3_qca6750.ko \
+    qca_cld3_qca6750.ko \
+    qca_cld3_wlan.ko \
+    qca_cld3_wlan.ko \
+    qcom_edac.kov \
+    qm1d1b0004.ko \
+    qm1d1c0042.ko \
+    qt1010.ko \
+    r820t.ko \
+    radio-i2c-rtc6226-qca.ko \
+    rdbg.ko \
     rmnet_core.ko \
     rmnet_ctl.ko \
     rmnet_offload.ko \
     rmnet_shs.ko
+    rx_macro_dlkm.ko \
+    si2157.ko \
+    sla.ko \
+    slimbus-ngd.ko \
+    slimbus.ko \
+    snd_event_dlkm.ko \
+    snd-soc-es928x.ko \
+    stub_dlkm.ko \
+    swr_ctrl_dlkm.ko \
+    swr_dlkm.ko \
+    swr_dmic_dlkm.ko \
+    swr_haptics_dlkm.ko \
+    sx932x_2nd.ko \
+    sx932x.ko \
+    tda18212.ko \
+    tda18218.ko \
+    tda18250.ko \
+    tda9887.ko \
+    tea5761.ko \
+    tea5767.ko \
+    texfat.ko \
+    tntfs.ko \
+    tua9001.ko \
+    tuner-simple.ko \
+    tuner-types.ko \
+    tuner-xc2028.ko \
+    tx_macro_dlkm.ko \
+    va_macro_dlkm.ko \
+    wcd_core_dlkm.ko \
+    wcd937x_dlkm.ko \
+    wcd937x_slave_dlkm.ko \
+    wcd938x_dlkm.ko \
+    wcd938x_slave_dlkm.ko \
+    wcd9xxx_dlkm.ko \
+    wsa_macro_dlkm.ko \
+    wsa883x_dlkm.ko \
+    xc4000.ko \
+    xc5000.ko
 
 TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_wlan.ko
 
@@ -263,8 +263,8 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOOT_KERNEL_MODULES := \
-    msm_drm.ko \
-    asus_global_var.ko
+    asus_global_var.ko \
+    msm_drm.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.emmc
